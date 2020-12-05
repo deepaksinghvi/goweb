@@ -1,0 +1,14 @@
+<!doctype html>
+<form name="EditUserForm" method="post" action="/updateuser"/>
+<body>
+<h1 class="h1">Edit User Details</h1>
+
+<div>
+    <label>Name:    </label>
+    <input type="text" name="username" value="{{.Name}}" size=20 /><br/><br/>
+    <label>Email ID: </label>
+    <input type="text" name="emailid" value="{{.Email}}" size=23 /><br/><br/>
+
+    <input type="submit" value="Update">
+</div>
+</body>
